@@ -33,6 +33,7 @@ function subtract() {
     document.getElementById("result").innerHTML = result2;
 }
 
+
 function multiply() {
     let firstNumber = Number(document.getElementById("first-number").value);
     let secondNumber = Number(document.getElementById("second-number").value);
