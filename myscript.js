@@ -41,6 +41,7 @@ function multiply() {
     document.getElementById("result").innerHTML = result3;
 }
 
+
 function divide() {
     let firstNumber = Number(document.getElementById("first-number").value);
     let secondNumber = Number(document.getElementById("second-number").value);
