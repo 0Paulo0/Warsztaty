@@ -16,7 +16,7 @@ function Home({ navigation }) {
       </Text>
       <Image style={styleso0.logo} source={require('./assets/apple2.png')} />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="Start"
         onPress={() => navigation.navigate('Quiz 1/5')
 } 
@@ -29,37 +29,37 @@ function Pytanie1({ navigation }) {
   return (
     <View style={styles1.screen}>
       <Text
-      style={{ fontSize: 30, fontWeight: 'bold', color: '#08145c' }}>
+      style={{ fontSize: 30, fontWeight: 'bold', color: '#08145c', flex: 1 }}>
       ___________________________ Pytanie 1: Kiedy został zaprezentowany pierwszy Iphone? ___________________________
       </Text>
       <Image style={styleso1.logo} source={require('./assets/iphone.png')} />
       <Button
-      color="#0F98FF"
-        title="                                              2010                                              "
+      color="#e9afa3"
+        title="                                               2010                                               "
         onPress={() => navigation.push('Zle1')}
         style={{paddingHorizontal: 100, 
           paddingVertical: 100,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              2007                                              "
+      color="#e9afa3"
+        title="                                               2007                                               "
         onPress={() => navigation.push('Dobrze1')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              2005                                              "
+      color="#e9afa3"
+        title="                                               2005                                               "
         onPress={() => navigation.push('Zle1')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              1999                                              "
+      color="#e9afa3"
+        title="                                               1999                                               "
         onPress={() => navigation.push('Zle1')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
@@ -111,32 +111,32 @@ function Pytanie2({ navigation }) {
       </Text>
       <Image style={styleso2.logo} source={require('./assets/intel.png')} />
       <Button
-      color="#0F98FF"
-        title="                                              2006                                              "
+      color="#e9afa3"
+        title="                                               2006                                               "
         onPress={() => navigation.push('Zle2')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              2007                                              "
+      color="#e9afa3"
+        title="                                               2007                                               "
         onPress={() => navigation.push('Zle2')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              2010                                              "
+      color="#e9afa3"
+        title="                                               2010                                               "
         onPress={() => navigation.push('Zle2')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              2005                                              "
+      color="#e9afa3"
+        title="                                               2005                                               "
         onPress={() => navigation.push('Dobrze2')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
@@ -187,32 +187,32 @@ function Pytanie3({ navigation }) {
       </Text>
       <Image style={styleso3.logo} source={require('./assets/asiedziba.png')} />
       <Button
-      color="#0F98FF"
-        title="                                              Coupertino                                              "
+      color="#e9afa3"
+        title="                                               Cupertino                                               "
         onPress={() => navigation.push('Dobrze3')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              San Francisco                                              "
+      color="#e9afa3"
+        title="                                               San Francisco                                               "
         onPress={() => navigation.push('Zle3')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              Los Angeles                                              "
+      color="#e9afa3"
+        title="                                               Los Angeles                                               "
         onPress={() => navigation.push('Zle3')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
-        title="                                              Moutain View                                              "
+      color="#e9afa3"
+        title="                                               Moutain View                                               "
         onPress={() => navigation.push('Zle3')}
         style={{paddingHorizontal: 30, 
           paddingVertical: 50,
@@ -263,7 +263,7 @@ function Pytanie4({ navigation }) {
       </Text>
       <Image style={styleso4.logo} source={require('./assets/macintosh128.png')} />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="                                              Druga połowa lat 70                                              "
         onPress={() => navigation.push('Zle4')}
         style={{paddingHorizontal: 30, 
@@ -271,7 +271,7 @@ function Pytanie4({ navigation }) {
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="                                              Pierwsza połowa lat 90                                              "
         onPress={() => navigation.push('Zle4')}
         style={{paddingHorizontal: 30, 
@@ -279,7 +279,7 @@ function Pytanie4({ navigation }) {
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="                                              Druga połowa lat 80                                              "
         onPress={() => navigation.push('Zle4')}
         style={{paddingHorizontal: 30, 
@@ -287,7 +287,7 @@ function Pytanie4({ navigation }) {
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="                                              Pierwsza połowa lat 80                                              "
         onPress={() => navigation.push('Dobrze4')}
         style={{paddingHorizontal: 30, 
@@ -339,7 +339,7 @@ function Pytanie5({ navigation }) {
       </Text> 
       <Image style={styleso5.logo} source={require('./assets/timcook.png')} />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="                                              Tim Cook                                              "
         onPress={() => navigation.push('Dobrze5')}
         style={{paddingHorizontal: 30, 
@@ -347,7 +347,7 @@ function Pytanie5({ navigation }) {
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="                                              Steve Jobs                                              "
         onPress={() => navigation.push('Zle5')}
         style={{paddingHorizontal: 30, 
@@ -355,7 +355,7 @@ function Pytanie5({ navigation }) {
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="                                              Bill Gates                                              "
         onPress={() => navigation.push('Zle5')}
         style={{paddingHorizontal: 30, 
@@ -363,7 +363,7 @@ function Pytanie5({ navigation }) {
           borderRadius: 30}}
       />
       <Button
-      color="#0F98FF"
+      color="#e9afa3"
         title="                                              Jonathan Ive                                              "
         onPress={() => navigation.push('Zle5')}
         style={{paddingHorizontal: 30, 
@@ -412,10 +412,10 @@ function Koniec({ navigation }) {
   return (
     <View style={styles2.screen}>
       <Text
-      style={{ fontSize: 30, fontWeight: 'bold', color: '#08145c' }}>
-      Wynik: ...
+      style={{ fontSize: 60, fontWeight: 'bold', color: '#08145c' }}>
+      Koniec
       </Text>
-      <Button color="#0F98FF" title="Strona Główna" onPress={() => navigation.navigate('Strona Główna')} />
+      <Button color="#e9afa3" title="Strona Główna" onPress={() => navigation.navigate('Strona Główna')} />
     </View>
   );
 }
@@ -425,7 +425,7 @@ const styles = StyleSheet.create({
     flex: 1, 
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#6ABFFF',
+    backgroundColor: '#faf3dd',
   },
 });
 
@@ -434,7 +434,7 @@ const styles1 = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#6ABFFF',
+    backgroundColor: '#faf3dd',
   },
 });
 
@@ -443,7 +443,7 @@ const styles2 = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#6ABFFF',
+    backgroundColor: '#faf3dd',
   },
 });
 
@@ -476,6 +476,7 @@ const styleso2 = StyleSheet.create({
   logo: {
     height: 450,
     width: 330,
+    borderRadius: 10,
   },
 });
 
@@ -483,6 +484,7 @@ const styleso3 = StyleSheet.create({
   logo: {
     height: 450,
     width: 330,
+    borderRadius: 10,
   },
 });
 
@@ -490,6 +492,7 @@ const styleso4 = StyleSheet.create({
   logo: {
     height: 450,
     width: 320,
+    borderRadius: 10,
   },
 });
 
@@ -497,12 +500,13 @@ const styleso5 = StyleSheet.create({
   logo: {
     height: 450,
     width: 300,
+    borderRadius: 10,
   },
 });
 
 const styleso0 = StyleSheet.create({
   logo: {
-    height: 410,
+    height: 400,
     width: 340,
   },
 });
@@ -517,7 +521,7 @@ function App() {
               color: '#08415c',
             },
             headerStyle: {
-              backgroundColor: '#44AEFF',
+              backgroundColor: '#f9dbbd',
             },
           }}
          />
